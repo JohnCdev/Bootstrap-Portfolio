@@ -40,6 +40,13 @@ body {
     border: 1px solid #dddddd;
 }
 
+.card-body, .card-title {
+    background-color: #4aaaa5;
+    color: #dddddd;
+    text-align: center;
+    font-size: 24px;
+}
+
 footer {
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
@@ -54,11 +61,6 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
-
-/*Contact page specific*?
-
-
-
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
