@@ -15,6 +15,31 @@ body {
     background-color: white;
 }
 
+.header-title {
+    text-align: left;
+}
+
+.content-title {
+    color:  #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+}
+
+.btn-primary {
+    background-color: #4aaaa5;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4aaaa5;
+    border: 1px solid #666666;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled):focus {
+    background-color: #666666;
+    border: 1px solid #dddddd;
+}
+
 footer {
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
@@ -30,12 +55,20 @@ footer {
     text-align: center;
 }
 
+/*Contact page specific*?
+
+
+
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .navbar-brand {
+        margin-left: 50px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 768px) {  
 }
 
 /* Large devices (desktops, 992px and up) */
