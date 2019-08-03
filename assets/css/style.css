@@ -52,7 +52,7 @@ footer {
     border-top: 5px solid #4aaaa5;
     position: fixed;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 
 .footer-content {
@@ -60,6 +60,19 @@ footer {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+}
+
+.profile-link {
+    color: white;
+}
+
+.profile-link:hover {
+    color: #666666;
+}
+
+.profile-link:visited {
+    color: white;
+    text-decoration: none;
 }
 
 /* Small devices (landscape phones, 576px and up) */
